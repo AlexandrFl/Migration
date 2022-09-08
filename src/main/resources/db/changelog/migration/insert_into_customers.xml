@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                     http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+    <changeSet id="3" author="F" >
+        <insert tableName="customers">
+            <column name="name" value="Tom"/>
+            <column name="surname" value="Tomson"/>
+            <column name="age" value="21"/>
+            <column name="phone_number" value="93432"/>
+        </insert>
+        <insert tableName="customers">
+            <column name="name" value="Bob"/>
+            <column name="surname" value="Bobov"/>
+            <column name="age" value="43"/>
+            <column name="phone_number" value="23523"/>
+        </insert>
+        <insert tableName="customers">
+            <column name="name" value="Alex"/>
+            <column name="surname" value="Alexov"/>
+            <column name="age" value="24"/>
+            <column name="phone_number" value="13452"/>
+        </insert>
+        <insert tableName="customers">
+            <column name="name" value="Elena"/>
+            <column name="surname" value="Elenova"/>
+            <column name="age" value="75"/>
+            <column name="phone_number" value="23423"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
